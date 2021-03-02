@@ -1,0 +1,150 @@
+.category_wrapper {
+  margin: 30px 0px;
+}
+
+.category {
+  width: 24%;
+  display: inline-flex;
+  & a {
+    display: inline-flex;
+    justify-content: center;
+    flex-flow: column;
+    align-content: center;
+    text-align: center;
+    margin-right: 15px;
+    color: var(--primeColor);
+    & img {
+      margin-bottom: 15px;
+      border-radius: 50%;
+    }
+    & span {
+      font-size: calc-rem(12);
+      font-weight: 400;
+    }
+  }
+}
+
+
+.section_title {
+  font-size: calc-rem(23);
+  font-weight: 400;
+  text-align: center;
+  display: block;
+  margin-bottom: 10px;
+}
+
+/* .brand_cards {
+  padding: 0px 15px;
+  text-align: center;
+  margin-bottom: 50px;
+} */
+.brand_car_wrapper{
+  margin: 0 -8px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.brand_card_full {
+  width: 100%;
+  padding:0 8px;
+  overflow: hidden;
+  &:nth-child(n+2) {
+    width: 50%;
+    margin-top: 18px;
+  }
+  & img{
+    border-radius: 3px;
+  }
+}
+
+/* .brand_card_half {
+  width: 49%;
+  display: inline-block;
+  margin-top: 18px;
+}
+
+.brand_card_half_first {
+  padding-right: 7.5px;
+}
+
+.brand_card_half_second {
+  padding-left: 7.5px;
+} */
+
+/* .personality_cards {
+  margin-bottom: 60px;
+} */
+
+.trending_cards {
+  & .trending_card:nth-child(even) {
+    padding-right: 7.5px;
+  }
+  & .trending_card:nth-child(odd) {
+    padding-left: 7.5px;
+    /* float: right; */
+  }
+}
+
+.trending_card {
+  display: inline-block;
+  width: 50%;
+  margin-bottom: 15px; 
+}
+
+.card_details {
+  padding: 18px;
+  background: var(--white);
+  text-align: center;
+  & span {
+    display: block;
+    color: var(--primeColor);
+    white-space: initial;
+  }
+}
+
+.card_title {
+  font-size: calc-rem(13);
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+
+.card_subtitle {
+  font-size: calc-rem(12);
+  font-weight: 400;
+}
+
+.free_delivery_banner {
+  padding: 0px 15px;
+  margin: 40px 0px 50px;
+}
+
+.category_card {
+  display: inline-block;
+  margin-right: 13px;
+}
+
+.quote_wrapper {
+  background: var(--white);
+  padding: 15px 0px;
+  text-align: center;
+  & p {
+    font-size: calc-rem(14);
+    font-weight: 500;
+    margin: 0px;
+  }
+}
+
+.quotation_icon {
+  background-position: -346px -10px;
+  height: 15px;
+  width: 20px;
+  display: block;
+  margin: 0 auto;
+  padding-top: 15px;
+}
+
+.quote_author {
+  font-size: calc-rem(9);
+  line-height: 18px;
+  color:#939393;
+  text-transform: uppercase;
+}

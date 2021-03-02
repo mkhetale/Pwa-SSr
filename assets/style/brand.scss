@@ -1,0 +1,73 @@
+.brand_banner {
+  margin-top: 70px;
+  background: #fff;
+  padding: 20px 15px;
+}
+
+.brand_card_wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.brand_card {
+  display: inline-block;
+  width:31.5%;
+}
+
+.brand_cardImg {
+  padding-bottom:150%;
+  position: relative;
+}
+
+.secttion_title {
+  display: block;
+  margin-bottom: 20px;
+  text-align: center;
+  font-size:calc-rem(14);
+  font-weight: 400;
+}
+
+
+.brands_list {
+  margin:10px 0px; 
+
+  
+  & ul {
+      padding:0px;
+  }
+}
+
+.brand_section {
+  display: block;
+  font-size:calc-rem(12);
+  color:#C5C3C6;
+  padding-left:15px;
+  margin: 5px 0px;
+}
+
+.brand_list_name {
+  background:#fff;
+  padding:10px 15px;
+  margin-bottom:2px; 
+
+  & a {
+      display: flex;
+      align-content: center;
+  }
+}
+
+.brand_logo{
+  margin-right:35px;
+  & img {
+      width:35px;
+      height: 35px;
+      border-radius: 50%;
+  }
+  
+}
+
+.brand_name {
+  color:#323a45;
+  font-size:calc-rem(18);
+  line-height: 35px;
+}

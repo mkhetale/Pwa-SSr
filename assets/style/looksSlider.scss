@@ -1,0 +1,58 @@
+.looksSlider_wrapper{
+  padding-top: 120px;
+  min-height: 100vh;
+  background: #fff;
+  position: relative;
+}
+.mainProd_wrapper{
+  max-width: 70%;
+  margin: auto;
+  position: absolute;
+  left: 0 ;
+  right: 0;
+}
+.lookProd_wrapper{
+  width: 90%;
+  position: relative;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  left: 0;
+  height: 55vh;
+}
+.singleProd {
+  width: 114px;
+  border-radius: 3px;
+  position: absolute;
+  box-shadow: 0px 2px 4px 0px rgba(0,0,0,.3);
+  &:nth-child(1) {
+    top:40px;
+  }
+  &:nth-child(2) {
+    right: 0;
+  }
+  &:nth-child(3) {
+    right: 0;
+    bottom: 60px
+  }
+  &:nth-child(4) {
+    bottom: 0;
+    bottom: 10px
+  }
+}
+.looksIcon{
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: rgba(0,0,0,.3);
+  background-position: -279px -26px;
+}
+.noLooks{
+  display: flex;
+  height: calc(100vh - 120px);
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
